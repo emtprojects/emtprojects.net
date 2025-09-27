@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İletişim | EMT Projects</title>
+  <meta name="description" content="EMT Projects iletişim ve sosyal medya hesapları.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="./index.html">
+        <img class="brand-image" src="./assets/images/logo.png" alt="EMT Projects" />
+        <span class="brand-name">EMT Projects</span>
+      </a>
+      <nav class="nav-links" data-nav-links>
+        <a href="./index.html" data-translate="nav.home">Ana Sayfa</a>
+        <a href="./hakkimizda.html" data-translate="nav.about">Hakkımızda</a>
+        <a href="./faaliyetlerimiz.html" data-translate="nav.activities">Faaliyetlerimiz</a>
+        <a href="./takimimiz.html" data-translate="nav.team">Takımımız</a>
+        <a class="active" href="./iletisim.html" data-translate="nav.contact">İletişim</a>
+      </nav>
+      <div class="nav-controls">
+        <button class="language-toggle" data-lang-toggle>
+          <span data-translate="lang.turkish">TR</span>
+        </button>
+        <button class="nav-toggle cta secondary" aria-label="Menüyü Aç/Kapat" data-nav-toggle data-translate="nav.menu">Menü</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+          <h1 data-translate="contact.title">İletişim</h1>
+          <p data-translate="contact.subtitle">Topluluğumuzla iletişime geçmek veya sosyal medya hesaplarımızı takip etmek için aşağıdaki bağlantıları kullanabilirsiniz.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container two-col-equal">
+        <div class="card">
+          <h2 data-translate="contact.form.title">İletişim</h2>
+          <p class="lead" data-translate="contact.form.subtitle">Her türlü soru ve iş birliği için bize yazın. En kısa sürede dönüş yaparız.</p>
+          <form action="https://formsubmit.co/lead.emtprojects@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Yeni mesaj - EMT Projects web sitesi">
+            <div class="row" style="gap: 10px;">
+              <div style="flex:1 1 240px">
+                <label for="name" data-translate="contact.form.name">Ad Soyad</label>
+                <input id="name" name="name" type="text" required data-translate-placeholder="contact.form.name.placeholder" placeholder="Adınız Soyadınız" style="width:100%;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.12);background:#0f1626;color:#e5e7eb;">
+              </div>
+              <div style="flex:1 1 240px">
+                <label for="email" data-translate="contact.form.email">E-posta</label>
+                <input id="email" name="email" type="email" required data-translate-placeholder="contact.form.email.placeholder" placeholder="ornek@eposta.com" style="width:100%;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.12);background:#0f1626;color:#e5e7eb;">
+              </div>
+            </div>
+            <div class="space"></div>
+            <div>
+              <label for="message" data-translate="contact.form.message">Mesajınız</label>
+              <textarea id="message" name="message" rows="6" required data-translate-placeholder="contact.form.message.placeholder" placeholder="Merhaba..." style="width:100%;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.12);background:#0f1626;color:#e5e7eb;"></textarea>
+            </div>
+            <div class="space"></div>
+            <button class="cta" type="submit" data-translate="contact.form.submit">Gönder</button>
+          </form>
+        </div>
+        <div class="card">
+          <h2 data-translate="contact.social.title">Sosyal Medya</h2>
+          <div class="account-list">
+            <a href="https://instagram.com/emtprojects" target="_blank" rel="noopener" class="account">
+              <img class="brandicon" src="./assets/images/instagram.svg" alt="Instagram" />
+              <div>
+                <strong>@emtprojects</strong>
+                <div style="color: var(--color-muted); font-size: 14px;" data-translate="contact.instagram.description">Etkinlik duyuruları ve kulislerden kareler</div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/company/emtprojects" target="_blank" rel="noopener" class="account">
+              <img class="brandicon" src="./assets/images/linkedin.svg" alt="LinkedIn" />
+              <div>
+                <strong>EMT Projects</strong>
+                <div style="color: var(--color-muted); font-size: 14px;" data-translate="contact.linkedin.description">Topluluk hikayeleri ve proje paylaşımları</div>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/@emtprojects" target="_blank" rel="noopener" class="account">
+              <img class="brandicon" src="./assets/images/youtube.svg" alt="YouTube" />
+              <div>
+                <strong>@emtprojects</strong>
+                <div style="color: var(--color-muted); font-size: 14px;" data-translate="contact.youtube.description">Eğitim kesitleri ve etkinlik kayıtları</div>
+              </div>
+            </a>
+            <!--<a href="mailto:hello@emtprojects.net" class="account">
+              <img class="brandicon" src="./assets/images/mail.svg" alt="E-posta" />
+              <div>
+                <strong>hello@emtprojects.net</strong>
+                <div style="color: var(--color-muted); font-size: 14px;">Genel iletişim ve iş birlikleri</div>
+              </div>
+            </a>-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="y"></span> EMT Projects</div>
+      <nav class="footer-nav">
+        <a href="./index.html" data-translate="nav.home">Ana Sayfa</a>
+        <a href="./hakkimizda.html" data-translate="nav.about">Hakkımızda</a>
+        <a href="./faaliyetlerimiz.html" data-translate="nav.activities">Faaliyetlerimiz</a>
+        <a href="./takimimiz.html" data-translate="nav.team">Takımımız</a>
+        <a href="./iletisim.html" data-translate="nav.contact">İletişim</a>
+      </nav>
+      <div class="socials">
+        <a href="https://instagram.com/emtprojects" target="_blank" rel="noopener" aria-label="Instagram"><img class="brandicon" src="./assets/images/instagram.svg" alt="Instagram" /></a>
+        <a href="https://www.linkedin.com/company/emtprojects" target="_blank" rel="noopener" aria-label="LinkedIn"><img class="brandicon" src="./assets/images/linkedin.svg" alt="LinkedIn" /></a>
+        <a href="https://www.youtube.com/@emtprojects" target="_blank" rel="noopener" aria-label="YouTube"><img class="brandicon" src="./assets/images/youtube.svg" alt="YouTube" /></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+

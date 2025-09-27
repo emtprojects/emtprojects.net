@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Takımımız | EMT Projects</title>
+  <meta name="description" content="EMT Projects takım yapısı: Eğitim, İçerik Üretimi, Sosyal Medya ekipleri.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="./index.html">
+        <img class="brand-image" src="./assets/images/logo.png" alt="EMT Projects" />
+        <span class="brand-name">EMT Projects</span>
+      </a>
+      <nav class="nav-links" data-nav-links>
+        <a href="./index.html">Ana Sayfa</a>
+        <a href="./hakkimizda.html">Hakkımızda</a>
+        <a href="./faaliyetlerimiz.html">Faaliyetlerimiz</a>
+        <a class="active" href="./takimimiz.html">Takımımız</a>
+        <a href="./iletisim.html">İletişim</a>
+      </nav>
+      <button class="nav-toggle cta secondary" aria-label="Menüyü Aç/Kapat" data-nav-toggle>Menü</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+          <h1>Organizasyon Takımımız</h1>
+          <p>Topluluğumuz 3 alt ekipten oluşur: Eğitim, Araştırma-Geliştirme ve Sosyal Medya.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Ekipler</h2>
+        <div class="card-grid">
+          <article class="card">
+            <img src="./assets/images/team/departements/Egitim.png" alt="Eğitim Ekibi" onerror="this.style.display='none'; this.parentElement.querySelector('.initials').style.display='block';">
+            <div class="initials" style="display:none;">EE</div>
+            <h3>Eğitim Ekibi</h3>
+            <div class="role">
+              <ul>
+                <li>Eğitim müfredatı geliştirme</li>
+                <li>Ders materyalleri hazırlama</li>
+                <li>Atölye çalışmaları organizasyonu</li>
+                <li>Öğrenci değerlendirme süreçleri</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <img src="./assets/images/team/departements/Ar-Ge.jpg" alt="Araştırma-Geliştirme Ekibi" onerror="this.style.display='none'; this.parentElement.querySelector('.initials').style.display='block';">
+            <div class="initials" style="display:none;">AR</div>
+            <h3>Araştırma-Geliştirme Ekibi</h3>
+            <div class="role">
+              <ul>
+                <li>Teknik içerik planlama</li>
+                <li>Araştırma ve analiz</li>
+                <li>İçerik metni hazırlama</li>
+                <li>İçerik görselleştirme</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <img src="./assets/images/team/departements/Sosyal-Medya.jpg" alt="Sosyal Medya Ekibi" onerror="this.style.display='none'; this.parentElement.querySelector('.initials').style.display='block';">
+            <div class="initials" style="display:none;">SM</div>
+            <h3>Sosyal Medya Ekibi</h3>
+            <div class="role">
+              <ul>
+                <li>Sosyal medya stratejisi</li>
+                <li>İçerik paylaşım planlaması</li>
+                <li>Etkinlik tanıtımları</li>
+                <li>Topluluk iletişimi</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="space"></div>
+
+        <h2>Kişiler</h2>
+        <div class="team-filters">
+          <button class="filter-btn active" data-team="all">Tümü</button>
+          <button class="filter-btn" data-team="egitim">Eğitim Ekibi</button>
+          <button class="filter-btn" data-team="icerik">Ar-Ge Ekibi</button>
+          <button class="filter-btn" data-team="sosyal">Sosyal Medya</button>
+        </div>
+        <div class="team-grid">
+          <div class="member" data-team="egitim">
+            <div class="avatar">
+              <img src="./assets/images/team/emre-kantar.png" alt="Emre Kantar" onerror="this.style.display='none'; this.parentElement.classList.remove('has-photo');">
+              <div class="initials">EK</div>
+            </div>
+            <div>
+              <strong>Emre Kantar</strong>
+              <div class="role">Başkan • Eğitim Ekibi • CAD Eğitmeni</div>
+              <div class="bio"></div>
+              <a href="https://www.linkedin.com/in/emre-kantar" target="_blank" rel="noopener" class="cta secondary small" style="margin-top:8px">LinkedIn</a>
+            </div>
+          </div>
+          <div class="member" data-team="danisman">
+            <div class="avatar">
+              <img src="./assets/images/team/gorkem-erbil.jpg" alt="Görkem Erbil" onerror="this.style.display='none'; this.parentElement.classList.remove('has-photo');">
+              <div class="initials">GE</div>
+            </div>
+            <div>
+              <strong>Görkem Erbil</strong>
+              <div class="role">Danışman Öğretmen</div>
+              <div class="bio"></div>
+              <!--<a href="#" target="_blank" rel="noopener" class="cta secondary small" style="margin-top:8px">LinkedIn</a>-->
+            </div>
+          </div>
+          <div class="member" data-team="egitim">
+            <div class="avatar">
+              <img src="./assets/images/team/adnan-ankarali.jpg" alt="Adnan Ankaralı" onerror="this.style.display='none'; this.parentElement.classList.remove('has-photo');">
+              <div class="initials">AA</div>
+            </div>
+            <div>
+              <strong>Adnan Ankaralı</strong>
+              <div class="role">Eğitim Ekibi • Elektronik & Kodlama Eğitmeni</div>
+              <div class="bio"></div>
+              <!--<a href="#" target="_blank" rel="noopener" class="cta secondary small" style="margin-top:8px">LinkedIn</a>-->
+            </div>
+          </div>
+          <div class="member" data-team="egitim">
+            <div class="avatar">
+              <img src="./assets/images/team/ege-akay.jpg" alt="Ege Akay" onerror="this.style.display='none'; this.parentElement.classList.remove('has-photo');">
+              <div class="initials">EA</div>
+            </div>
+            <div>
+              <strong>Ege Akay</strong>
+              <div class="role">Eğitim Ekibi • CAD Eğitmeni</div>
+              <div class="bio"></div>
+              <!--<a href="#" target="_blank" rel="noopener" class="cta secondary small" style="margin-top:8px">LinkedIn</a>-->
+            </div>
+          </div>
+          <div class="member" data-team="egitim">
+            <div class="avatar">
+              <img src="./assets/images/team/alphan-ozcan.jpg" alt="Alphan Özcan" onerror="this.style.display='none'; this.parentElement.classList.remove('has-photo');">
+              <div class="initials">AÖ</div>
+            </div>
+            <div>
+              <strong>Alphan Özcan</strong>
+              <div class="role">Eğitim Ekibi • Elektronik & Kodlama Eğitmeni</div>
+              <div class="bio"></div>
+              <!--<a href="#" target="_blank" rel="noopener" class="cta secondary small" style="margin-top:8px">LinkedIn</a>-->
+            </div>
+          </div>
+          <div class="member" data-team="icerik">
+            <div class="avatar">
+              <img src="./assets/images/team/ahmet-yilmaz.jpg" alt="Ahmet Yılmaz" onerror="this.style.display='none'; this.parentElement.classList.remove('has-photo');">
+              <div class="initials">DK</div>
+            </div>
+            <div>
+              <strong>Duru Karakuş</strong>
+              <div class="role">Ar-Ge Ekibi • Ekip Sorumlusu</div>
+              <div class="bio"></div>
+              <!--<a href="#" target="_blank" rel="noopener" class="cta secondary small" style="margin-top:8px">LinkedIn</a>-->
+            </div>
+          </div>
+          <div class="member" data-team="sosyal">
+            <div class="avatar">
+              <img src="./assets/images/team/julide-ezel-kavalci.jpg" alt="Jülide Ezel Kavalcı" onerror="this.style.display='none'; this.parentElement.classList.remove('has-photo');">
+              <div class="initials">JE</div>
+            </div>
+            <div>
+              <strong>Jülide Ezel Kavalcı</strong>
+              <div class="role">Sosyal Medya Ekibi • Ekip Sorumlusu</div>
+              <div class="bio"></div>
+              <!--<a href="#" target="_blank" rel="noopener" class="cta secondary small" style="margin-top:8px">LinkedIn</a>-->
+            </div>
+          </div>
+          <div class="member" data-team="sosyal">
+            <div class="avatar">
+              <img src="./assets/images/team/beril-catal.jpg" alt="Beril Çatal" onerror="this.style.display='none'; this.parentElement.classList.remove('has-photo');">
+              <div class="initials">BÇ</div>
+            </div>
+            <div>
+              <strong>Beril Çatal</strong>
+              <div class="role">Sosyal Medya Ekibi • Ekip Sorumlusu</div>
+              <div class="bio"></div>
+              <!--<a href="#" target="_blank" rel="noopener" class="cta secondary small" style="margin-top:8px">LinkedIn</a>-->
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="y"></span> EMT Projects</div>
+      <nav class="footer-nav">
+        <a href="./index.html">Ana Sayfa</a>
+        <a href="./hakkimizda.html">Hakkımızda</a>
+        <a href="./faaliyetlerimiz.html">Faaliyetlerimiz</a>
+        <a href="./takimimiz.html">Takımımız</a>
+        <a href="./iletisim.html">İletişim</a>
+      </nav>
+      <div class="socials">
+        <a href="https://instagram.com/emtprojects" target="_blank" rel="noopener" aria-label="Instagram"><img class="brandicon" src="./assets/images/instagram.svg" alt="Instagram" /></a>
+        <a href="https://www.linkedin.com/company/emtprojects" target="_blank" rel="noopener" aria-label="LinkedIn"><img class="brandicon" src="./assets/images/linkedin.svg" alt="LinkedIn" /></a>
+        <a href="https://www.youtube.com/@emtprojects" target="_blank" rel="noopener" aria-label="YouTube"><img class="brandicon" src="./assets/images/youtube.svg" alt="YouTube" /></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+

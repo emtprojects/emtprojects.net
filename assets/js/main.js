@@ -9,8 +9,8 @@
       'nav.team': 'Takımımız',
       'nav.contact': 'İletişim',
       'nav.menu': 'Menü',
-      'lang.turkish': 'TR',
-      'lang.english': 'EN',
+      'lang.turkish': 'EN',
+      'lang.english': 'TR',
       
       // Home page
       'hero.subtitle': 'Öğrenmeye Meraklı Üretmeye Kararlı Öğrenci Topluluğu',

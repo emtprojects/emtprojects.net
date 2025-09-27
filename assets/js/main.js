@@ -9,8 +9,8 @@
       'nav.team': 'Takımımız',
       'nav.contact': 'İletişim',
       'nav.menu': 'Menü',
-      'lang.turkish': 'EN',
-      'lang.english': 'TR',
+      'lang.turkish': 'TR',
+      'lang.english': 'EN',
       
       // Home page
       'hero.subtitle': 'Öğrenmeye Meraklı Üretmeye Kararlı Öğrenci Topluluğu',
@@ -291,11 +291,16 @@
     translatePage(currentLanguage);
     
     // Update language toggle button
+    updateLanguageButton();
+  }
+  
+  function updateLanguageButton() {
     const langToggle = document.querySelector('[data-lang-toggle]');
     if (langToggle) {
       const span = langToggle.querySelector('span');
       if (span) {
-        span.textContent = currentLanguage === 'tr' ? 'TR' : 'EN';
+        // Show the opposite language code
+        span.textContent = currentLanguage === 'tr' ? 'EN' : 'TR';
       }
       langToggle.classList.toggle('active', currentLanguage === 'en');
     }
@@ -308,7 +313,7 @@
   const langToggle = document.querySelector('[data-lang-toggle]');
   if (langToggle) {
     langToggle.addEventListener('click', toggleLanguage);
-    langToggle.classList.toggle('active', currentLanguage === 'en');
+    updateLanguageButton();
   }
 
   // Mobile nav toggle

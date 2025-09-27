@@ -131,8 +131,8 @@
       'nav.team': 'Team',
       'nav.contact': 'Contact',
       'nav.menu': 'Menu',
-      'lang.turkish': 'EN',
-      'lang.english': 'TR',
+      'lang.turkish': 'TR',
+      'lang.english': 'EN',
       
       // Home page
       'hero.subtitle': 'Student Community Curious to Learn, Determined to Produce',
